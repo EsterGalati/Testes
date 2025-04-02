@@ -138,4 +138,5 @@ export default {
   color: #5c85d6;
   margin-bottom: 5px;
 }
+
 </style>
