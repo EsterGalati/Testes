@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "76c1ac4c-8207-4f60-9b9c-087224e842c6",
+		"name": "Teste 4 API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43568610"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/buscar?q=Claro\n",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/buscar?q=Claro\n",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Claro\n"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://127.0.0.1:5000/buscar?q=Claro",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/buscar?q=Claro\n",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"buscar"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Claro\n"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.11.0"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 28 Mar 2025 17:24:10 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3465"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Bairro\": \"SANTO AMARO\",\n        \"CEP\": 4709110,\n        \"CNPJ\": \"40432544000147\",\n        \"Cargo_Representante\": \"Representante da Empresa \",\n        \"Cidade\": \"São Paulo\",\n        \"Complemento\": \"TORRE A E TORRE B\",\n        \"DDD\": \"\",\n        \"Data_Registro_ANS\": \"2024-04-09\",\n        \"Endereco_eletronico\": \"planoamap@planoamap.com.br\",\n        \"Fax\": \"\",\n        \"Logradouro\": \"R HENRI DUNANT\",\n        \"Modalidade\": \"Autogestão\",\n        \"Nome_Fantasia\": \"CLARO\",\n        \"Numero\": \"780\",\n        \"Razao_Social\": \"CLARO S.A\",\n        \"Regiao_de_Comercializacao\": \"\",\n        \"Registro_ANS\": \"423963\",\n        \"Representante\": \"ALBERT CARVALHO JUNQUEIRA\",\n        \"Telefone\": \"\",\n        \"UF\": \"SP\"\n    },\n    {\n        \"Bairro\": \"SAÚDE\",\n        \"CEP\": 13500010,\n        \"CNPJ\": \"56384183000140\",\n        \"Cargo_Representante\": \"PROVEDOR\",\n        \"Cidade\": \"Rio Claro\",\n        \"Complemento\": \"\",\n        \"DDD\": \"\",\n        \"Data_Registro_ANS\": \"1998-12-29\",\n        \"Endereco_eletronico\": \"plano@santacasaderioclaro.com.br\",\n        \"Fax\": \"\",\n        \"Logradouro\": \"RUA 2\",\n        \"Modalidade\": \"Filantropia\",\n        \"Nome_Fantasia\": \"\",\n        \"Numero\": \"297\",\n        \"Razao_Social\": \"IRMANDADE DA SANTA CASA DE MISERICÓRDIA DE RIO CLARO\",\n        \"Regiao_de_Comercializacao\": 5,\n        \"Registro_ANS\": \"347655\",\n        \"Representante\": \"DANÚSIO ANTÔNIO DINIZ\",\n        \"Telefone\": \"\",\n        \"UF\": \"SP\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 13500391,\n        \"CNPJ\": \"44663631000166\",\n        \"Cargo_Representante\": \"DIRETOR PRESIDENTE\",\n        \"Cidade\": \"Rio Claro\",\n        \"Complemento\": \"\",\n        \"DDD\": 19,\n        \"Data_Registro_ANS\": \"1998-12-18\",\n        \"Endereco_eletronico\": \"contato.ans@unimedrc.com.br\",\n        \"Fax\": 35266734,\n        \"Logradouro\": \"AVENIDA TRÊS\",\n        \"Modalidade\": \"Cooperativa Médica\",\n        \"Nome_Fantasia\": \"UNIMED DE RIO CLARO SP\",\n        \"Numero\": \"654\",\n        \"Razao_Social\": \"UNIMED DE RIO CLARO SP COOPERATIVA DE TRABALHO MEDICO\",\n        \"Regiao_de_Comercializacao\": 5,\n        \"Registro_ANS\": \"306126\",\n        \"Representante\": \"JOSÉ MARTINIANO GRILLO NETO\",\n        \"Telefone\": 35266712,\n        \"UF\": \"SP\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 39400077,\n        \"CNPJ\": \"16921561000163\",\n        \"Cargo_Representante\": \"DIRETOR PRESIDENTE\",\n        \"Cidade\": \"Montes Claros\",\n        \"Complemento\": \"\",\n        \"DDD\": 38,\n        \"Data_Registro_ANS\": \"1998-12-18\",\n        \"Endereco_eletronico\": \"juridico@unimednortedeminas.com.br\",\n        \"Fax\": \"\",\n        \"Logradouro\": \"RUA JANUÁRIA\",\n        \"Modalidade\": \"Cooperativa Médica\",\n        \"Nome_Fantasia\": \"UNIMED NORTE DE MINAS\",\n        \"Numero\": \"593\",\n        \"Razao_Social\": \"UNIMED MONTES CLAROS COOPERATIVA DE  TRABALHO MÉDICO LTDA.\",\n        \"Regiao_de_Comercializacao\": 5,\n        \"Registro_ANS\": \"304051\",\n        \"Representante\": \"SEBASTIÃO RODRIGO ROCHA ALMEIDA\",\n        \"Telefone\": 21011515,\n        \"UF\": \"MG\"\n    },\n    {\n        \"Bairro\": \"CENTRO\",\n        \"CEP\": 13500150,\n        \"CNPJ\": \"96609292000133\",\n        \"Cargo_Representante\": \"PRESIDENTE\",\n        \"Cidade\": \"Rio Claro\",\n        \"Complemento\": \"AVS.3 E 5\",\n        \"DDD\": 19,\n        \"Data_Registro_ANS\": \"1998-12-17\",\n        \"Endereco_eletronico\": \"uniodontorc@uniodontorc.com.br\",\n        \"Fax\": 35248738,\n        \"Logradouro\": \"RUA 2\",\n        \"Modalidade\": \"Cooperativa odontológica\",\n        \"Nome_Fantasia\": \"UNIODONTO DE RIO CLARO\",\n        \"Numero\": \"918\",\n        \"Razao_Social\": \"UNIODONTO DE RIO CLARO COOPERATIVA ODONTOLOGICA\",\n        \"Regiao_de_Comercializacao\": 5,\n        \"Registro_ANS\": \"349011\",\n        \"Representante\": \"ROSANGELA DA SILVEIRA FREITAS\",\n        \"Telefone\": 35246475,\n        \"UF\": \"SP\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
